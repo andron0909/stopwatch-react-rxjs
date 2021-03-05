@@ -4,7 +4,6 @@ class StopwatchService {
   s = new Observable(0);
   m = new Observable(0);
   h = new Observable(0);
-  init = new Observable(false);
 
   setS(s) {
     this.s.set(s);
